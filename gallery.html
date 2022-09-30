@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background-image:url("extras/backgroundMain.jpg");
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="./index.html" class="btn tabar">Home Button</a>
+        <a href="./gallery.html" class="btn tabar">Gallery</a>
+        <a href="./services.html" class="btn tabar">Services</a>
+        <a href="./contact.html" class="btn tabar">Contact Us</a>
+    </div>
+
+    <div class="tabs">
+
+        <!-- Wedding Tab //-->
+        <input type="radio" id="wedding" name="gallerytabs" checked="checked">
+        <label for="wedding">Wedding</label>
+        <div class="tab">
+            <h1>Wedding Photography</h1>
+            <iframe class="galleryIframe" src="https://drive.google.com/embeddedfolderview?id=1xxOdwBzl1uAX3XD55UZXBGuRUfUfk-YA#grid" width="75%" height="95%"></iframe>
+        </div>
+
+        <!-- Photo Booth Tab //-->
+        <input type="radio" id="pbooth" name="gallerytabs">
+        <label for="pbooth">Photo Booth</label>
+        <div class="tab">
+            <h1>Photo Booth</h1>
+            <iframe class="galleryIframe" src="https://drive.google.com/embeddedfolderview?id=1xxOdwBzl1uAX3XD55UZXBGuRUfUfk-YA#grid" width="75%" height="95%"></iframe>
+        </div>
+
+        <!-- Sweet 16 Booth Tab //-->
+        <input type="radio" id="s16" name="gallerytabs">
+        <label for="s16">Sweet 16</label>
+        <div class="tab">
+            <h1>Sweet 16</h1>
+            <iframe class="galleryIframe" src="https://drive.google.com/embeddedfolderview?id=1xxOdwBzl1uAX3XD55UZXBGuRUfUfk-YA#grid" width="75%" height="95%"></iframe>
+        </div>
+
+    </div>
+</body>
+</html>
